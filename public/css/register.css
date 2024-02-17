@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+	padding:0;
+	background-size:cover;
+	font-family:sans-sherif;
+}
+.register{
+	position:absolute;
+	top:3%;
+	left:30%;
+	right:50%;
+	bottom:50%;	
+	transform:translator(-500,-500);
+	width:410px;
+	height:530px;
+	padding:80px 40px;
+	bos-sizing:border-box;
+	background:#FA7070;
+	border-radius:10px;
+}
+h2{
+	margin:0;
+	padding: 0 0 10px;
+	color:black;
+	text-align:center
+}
+input#name{
+	width:300px;
+	outline: 0px;
+	padding: 7px;
+	border-radius: 3px;
+
+}
+input#submit{
+	width: 100px;
+	padding: 3px;
+	background-color:#FD841F;
+}
+
+input#back{
+	width: 100px;
+	padding: 3px;
+	background-color: #FD841F;
+}

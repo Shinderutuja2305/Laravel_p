@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+    font-family:Times New Roman;
+	font-style:bold;	
+}
+.menu-bar{
+	background:green;
+	text-align:right;
+}
+
+.menu-bar ul{
+	display:inline-flex;
+	list-style:none;
+	color:#fff;
+	
+}
+.menu-bar ul li{
+	width:120px;
+	margin:15px;
+	padding:15px;
+	text-align:center;
+}
+.menu-bar ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+.active,.menu-bar ul li:hover{
+	background:#2bab0d;
+	border-radius:30 px;
+}
